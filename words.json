@@ -1,0 +1,72 @@
+[
+  {"word":"Bonjour","meaning":"Hello","pronunciation":"bon-zhoor","example":"Bonjour, comment ça va ?"},
+  {"word":"Bonsoir","meaning":"Good evening","pronunciation":"bon-swahr","example":"Bonsoir, monsieur"},
+  {"word":"Salut","meaning":"Hi","pronunciation":"sa-lu","example":"Salut, mon ami"},
+  {"word":"Merci","meaning":"Thank you","pronunciation":"mehr-see","example":"Merci beaucoup"},
+  {"word":"S'il vous plaît","meaning":"Please","pronunciation":"seel voo pleh","example":"Un café, s'il vous plaît"},
+  {"word":"Oui","meaning":"Yes","pronunciation":"wee","example":"Oui, je comprends"},
+  {"word":"Non","meaning":"No","pronunciation":"noh","example":"Non, merci"},
+  {"word":"Excusez-moi","meaning":"Excuse me","pronunciation":"ex-kew-zay mwa","example":"Excusez-moi, où est la gare ?"},
+  {"word":"Pardon","meaning":"Sorry","pronunciation":"par-don","example":"Pardon pour le retard"},
+  {"word":"Au revoir","meaning":"Goodbye","pronunciation":"oh ruh-vwahr","example":"Au revoir, à demain"},
+
+  {"word":"Homme","meaning":"Man","pronunciation":"om","example":"L'homme est ici"},
+  {"word":"Femme","meaning":"Woman","pronunciation":"fam","example":"La femme parle"},
+  {"word":"Enfant","meaning":"Child","pronunciation":"ahn-fahn","example":"L'enfant joue"},
+  {"word":"Ami","meaning":"Friend","pronunciation":"a-mee","example":"Mon ami arrive"},
+  {"word":"Famille","meaning":"Family","pronunciation":"fa-mee","example":"Ma famille est grande"},
+
+  {"word":"Eau","meaning":"Water","pronunciation":"oh","example":"Je bois de l'eau"},
+  {"word":"Pain","meaning":"Bread","pronunciation":"pan","example":"J'achète du pain"},
+  {"word":"Lait","meaning":"Milk","pronunciation":"leh","example":"Le lait est frais"},
+  {"word":"Café","meaning":"Coffee","pronunciation":"ka-fay","example":"Je bois du café"},
+  {"word":"Thé","meaning":"Tea","pronunciation":"tay","example":"Le thé est chaud"},
+
+  {"word":"Maison","meaning":"House","pronunciation":"meh-zon","example":"La maison est grande"},
+  {"word":"École","meaning":"School","pronunciation":"ay-kol","example":"L'école est ouverte"},
+  {"word":"Ville","meaning":"City","pronunciation":"veel","example":"La ville est belle"},
+  {"word":"Rue","meaning":"Street","pronunciation":"roo","example":"La rue est longue"},
+  {"word":"Magasin","meaning":"Shop","pronunciation":"ma-ga-zan","example":"Le magasin est fermé"},
+
+  {"word":"Aller","meaning":"To go","pronunciation":"a-lay","example":"Je vais à l'école"},
+  {"word":"Venir","meaning":"To come","pronunciation":"veh-neer","example":"Il vient ici"},
+  {"word":"Voir","meaning":"To see","pronunciation":"vwahr","example":"Je vois la mer"},
+  {"word":"Dire","meaning":"To say","pronunciation":"deer","example":"Elle dit bonjour"},
+  {"word":"Faire","meaning":"To do","pronunciation":"fehr","example":"Je fais mon travail"},
+
+  {"word":"Grand","meaning":"Big","pronunciation":"grahn","example":"C'est une grande maison"},
+  {"word":"Petit","meaning":"Small","pronunciation":"pe-tee","example":"Le chat est petit"},
+  {"word":"Bon","meaning":"Good","pronunciation":"bon","example":"C'est bon"},
+  {"word":"Mauvais","meaning":"Bad","pronunciation":"mo-vay","example":"C'est mauvais"},
+  {"word":"Rapide","meaning":"Fast","pronunciation":"ra-peed","example":"Il est rapide"},
+
+  {"word":"Un","meaning":"One","pronunciation":"uhn","example":"Un livre"},
+  {"word":"Deux","meaning":"Two","pronunciation":"duh","example":"Deux pommes"},
+  {"word":"Trois","meaning":"Three","pronunciation":"trwah","example":"Trois enfants"},
+  {"word":"Quatre","meaning":"Four","pronunciation":"katr","example":"Quatre chaises"},
+  {"word":"Cinq","meaning":"Five","pronunciation":"sank","example":"Cinq minutes"},
+
+  {"word":"Aujourd'hui","meaning":"Today","pronunciation":"oh-zhoor-dwee","example":"Aujourd'hui il pleut"},
+  {"word":"Demain","meaning":"Tomorrow","pronunciation":"duh-man","example":"Demain je pars"},
+  {"word":"Hier","meaning":"Yesterday","pronunciation":"ee-yer","example":"Hier c'était bien"},
+  {"word":"Maintenant","meaning":"Now","pronunciation":"man-teh-non","example":"Je pars maintenant"},
+  {"word":"Toujours","meaning":"Always","pronunciation":"too-zhoor","example":"Je suis toujours prêt"},
+
+  {"word":"Pourquoi","meaning":"Why","pronunciation":"poor-kwah","example":"Pourquoi viens-tu ?"},
+  {"word":"Comment","meaning":"How","pronunciation":"ko-mon","example":"Comment ça va ?"},
+  {"word":"Où","meaning":"Where","pronunciation":"oo","example":"Où es-tu ?"},
+  {"word":"Quand","meaning":"When","pronunciation":"kahn","example":"Quand pars-tu ?"},
+  {"word":"Qui","meaning":"Who","pronunciation":"kee","example":"Qui est là ?"},
+
+  {"word":"Aimer","meaning":"To love","pronunciation":"eh-may","example":"J'aime la musique"},
+  {"word":"Manger","meaning":"To eat","pronunciation":"mon-zhay","example":"Je mange du pain"},
+  {"word":"Boire","meaning":"To drink","pronunciation":"bwahr","example":"Je bois de l'eau"},
+  {"word":"Dormir","meaning":"To sleep","pronunciation":"dor-meer","example":"Je dors bien"},
+  {"word":"Lire","meaning":"To read","pronunciation":"leer","example":"Je lis un livre"},
+
+  {"word":"Livre","meaning":"Book","pronunciation":"leevr","example":"Le livre est intéressant"},
+  {"word":"Stylo","meaning":"Pen","pronunciation":"stee-lo","example":"J'ai un stylo"},
+  {"word":"Table","meaning":"Table","pronunciation":"tabl","example":"La table est propre"},
+  {"word":"Chaise","meaning":"Chair","pronunciation":"shehz","example":"La chaise est cassée"},
+  {"word":"Ordinateur","meaning":"Computer","pronunciation":"or-dee-na-tur","example":"L'ordinateur marche"}
+]
