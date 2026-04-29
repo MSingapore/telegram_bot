@@ -1,3 +1,4 @@
+import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
 
@@ -8,14 +9,14 @@ def run_web():
             self.end_headers()
             self.wfile.write(b"Bot is alive")
 
-    server = HTTPServer(("0.0.0.0", 10000), Handler)
+    port = int(os.environ.get("PORT", 10000))
+    server = HTTPServer(("0.0.0.0", port), Handler)
     server.serve_forever()
 
 threading.Thread(target=run_web, daemon=True).start()
 
 import json
 import random
-import os
 import asyncio
 import uuid
 from datetime import datetime
