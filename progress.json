@@ -1,14 +1,63 @@
 {
-  "1149671319": {
-    "correct": 4,
-    "total": 11,
-    "streak": 1,
-    "last_active": "2026-04-28"
-  },
   "5092237447": {
-    "correct": 4,
-    "total": 6,
+    "correct": 7,
+    "total": 10,
     "streak": 1,
-    "last_active": "2026-04-28"
+    "last_active": "2026-04-29",
+    "category": "greetings",
+    "learned": [],
+    "xp": 5,
+    "level": "ًںŒ± A1 آ· Beginner",
+    "hearts": 5,
+    "last_heart_time": "",
+    "daily_done": 0,
+    "goal_date": "",
+    "words": {
+      "bonjour": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      }
+    },
+    "achievements": [],
+    "total_correct": 0,
+    "total_wrong": 0,
+    "consec_correct": 0,
+    "studied_cats": [
+      "greetings"
+    ],
+    "total_typed": 0,
+    "total_filled": 0,
+    "total_reviewed": 0,
+    "total_daily_goals": 0
+  },
+  "1149671319": {
+    "xp": 10,
+    "level": "🌱 A1 · Beginner",
+    "hearts": 5,
+    "last_heart_time": "",
+    "streak": 1,
+    "last_active": "2026-04-29",
+    "daily_done": 0,
+    "goal_date": "",
+    "category": "greetings",
+    "words": {
+      "bonjour": {
+        "correct": 2,
+        "wrong": 5,
+        "next_review": "2026-05-01"
+      }
+    },
+    "achievements": [],
+    "total_correct": 0,
+    "total_wrong": 5,
+    "consec_correct": 0,
+    "studied_cats": [
+      "greetings"
+    ],
+    "total_typed": 0,
+    "total_filled": 0,
+    "total_reviewed": 0,
+    "total_daily_goals": 0
   }
 }

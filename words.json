@@ -1,72 +1,798 @@
-[
-  {"word":"Bonjour","meaning":"Hello","pronunciation":"bon-zhoor","example":"Bonjour, comment ça va ?"},
-  {"word":"Bonsoir","meaning":"Good evening","pronunciation":"bon-swahr","example":"Bonsoir, monsieur"},
-  {"word":"Salut","meaning":"Hi","pronunciation":"sa-lu","example":"Salut, mon ami"},
-  {"word":"Merci","meaning":"Thank you","pronunciation":"mehr-see","example":"Merci beaucoup"},
-  {"word":"S'il vous plaît","meaning":"Please","pronunciation":"seel voo pleh","example":"Un café, s'il vous plaît"},
-  {"word":"Oui","meaning":"Yes","pronunciation":"wee","example":"Oui, je comprends"},
-  {"word":"Non","meaning":"No","pronunciation":"noh","example":"Non, merci"},
-  {"word":"Excusez-moi","meaning":"Excuse me","pronunciation":"ex-kew-zay mwa","example":"Excusez-moi, où est la gare ?"},
-  {"word":"Pardon","meaning":"Sorry","pronunciation":"par-don","example":"Pardon pour le retard"},
-  {"word":"Au revoir","meaning":"Goodbye","pronunciation":"oh ruh-vwahr","example":"Au revoir, à demain"},
-
-  {"word":"Homme","meaning":"Man","pronunciation":"om","example":"L'homme est ici"},
-  {"word":"Femme","meaning":"Woman","pronunciation":"fam","example":"La femme parle"},
-  {"word":"Enfant","meaning":"Child","pronunciation":"ahn-fahn","example":"L'enfant joue"},
-  {"word":"Ami","meaning":"Friend","pronunciation":"a-mee","example":"Mon ami arrive"},
-  {"word":"Famille","meaning":"Family","pronunciation":"fa-mee","example":"Ma famille est grande"},
-
-  {"word":"Eau","meaning":"Water","pronunciation":"oh","example":"Je bois de l'eau"},
-  {"word":"Pain","meaning":"Bread","pronunciation":"pan","example":"J'achète du pain"},
-  {"word":"Lait","meaning":"Milk","pronunciation":"leh","example":"Le lait est frais"},
-  {"word":"Café","meaning":"Coffee","pronunciation":"ka-fay","example":"Je bois du café"},
-  {"word":"Thé","meaning":"Tea","pronunciation":"tay","example":"Le thé est chaud"},
-
-  {"word":"Maison","meaning":"House","pronunciation":"meh-zon","example":"La maison est grande"},
-  {"word":"École","meaning":"School","pronunciation":"ay-kol","example":"L'école est ouverte"},
-  {"word":"Ville","meaning":"City","pronunciation":"veel","example":"La ville est belle"},
-  {"word":"Rue","meaning":"Street","pronunciation":"roo","example":"La rue est longue"},
-  {"word":"Magasin","meaning":"Shop","pronunciation":"ma-ga-zan","example":"Le magasin est fermé"},
-
-  {"word":"Aller","meaning":"To go","pronunciation":"a-lay","example":"Je vais à l'école"},
-  {"word":"Venir","meaning":"To come","pronunciation":"veh-neer","example":"Il vient ici"},
-  {"word":"Voir","meaning":"To see","pronunciation":"vwahr","example":"Je vois la mer"},
-  {"word":"Dire","meaning":"To say","pronunciation":"deer","example":"Elle dit bonjour"},
-  {"word":"Faire","meaning":"To do","pronunciation":"fehr","example":"Je fais mon travail"},
-
-  {"word":"Grand","meaning":"Big","pronunciation":"grahn","example":"C'est une grande maison"},
-  {"word":"Petit","meaning":"Small","pronunciation":"pe-tee","example":"Le chat est petit"},
-  {"word":"Bon","meaning":"Good","pronunciation":"bon","example":"C'est bon"},
-  {"word":"Mauvais","meaning":"Bad","pronunciation":"mo-vay","example":"C'est mauvais"},
-  {"word":"Rapide","meaning":"Fast","pronunciation":"ra-peed","example":"Il est rapide"},
-
-  {"word":"Un","meaning":"One","pronunciation":"uhn","example":"Un livre"},
-  {"word":"Deux","meaning":"Two","pronunciation":"duh","example":"Deux pommes"},
-  {"word":"Trois","meaning":"Three","pronunciation":"trwah","example":"Trois enfants"},
-  {"word":"Quatre","meaning":"Four","pronunciation":"katr","example":"Quatre chaises"},
-  {"word":"Cinq","meaning":"Five","pronunciation":"sank","example":"Cinq minutes"},
-
-  {"word":"Aujourd'hui","meaning":"Today","pronunciation":"oh-zhoor-dwee","example":"Aujourd'hui il pleut"},
-  {"word":"Demain","meaning":"Tomorrow","pronunciation":"duh-man","example":"Demain je pars"},
-  {"word":"Hier","meaning":"Yesterday","pronunciation":"ee-yer","example":"Hier c'était bien"},
-  {"word":"Maintenant","meaning":"Now","pronunciation":"man-teh-non","example":"Je pars maintenant"},
-  {"word":"Toujours","meaning":"Always","pronunciation":"too-zhoor","example":"Je suis toujours prêt"},
-
-  {"word":"Pourquoi","meaning":"Why","pronunciation":"poor-kwah","example":"Pourquoi viens-tu ?"},
-  {"word":"Comment","meaning":"How","pronunciation":"ko-mon","example":"Comment ça va ?"},
-  {"word":"Où","meaning":"Where","pronunciation":"oo","example":"Où es-tu ?"},
-  {"word":"Quand","meaning":"When","pronunciation":"kahn","example":"Quand pars-tu ?"},
-  {"word":"Qui","meaning":"Who","pronunciation":"kee","example":"Qui est là ?"},
-
-  {"word":"Aimer","meaning":"To love","pronunciation":"eh-may","example":"J'aime la musique"},
-  {"word":"Manger","meaning":"To eat","pronunciation":"mon-zhay","example":"Je mange du pain"},
-  {"word":"Boire","meaning":"To drink","pronunciation":"bwahr","example":"Je bois de l'eau"},
-  {"word":"Dormir","meaning":"To sleep","pronunciation":"dor-meer","example":"Je dors bien"},
-  {"word":"Lire","meaning":"To read","pronunciation":"leer","example":"Je lis un livre"},
-
-  {"word":"Livre","meaning":"Book","pronunciation":"leevr","example":"Le livre est intéressant"},
-  {"word":"Stylo","meaning":"Pen","pronunciation":"stee-lo","example":"J'ai un stylo"},
-  {"word":"Table","meaning":"Table","pronunciation":"tabl","example":"La table est propre"},
-  {"word":"Chaise","meaning":"Chair","pronunciation":"shehz","example":"La chaise est cassée"},
-  {"word":"Ordinateur","meaning":"Computer","pronunciation":"or-dee-na-tur","example":"L'ordinateur marche"}
-]
+{
+  "beginner": {
+    "greetings": [
+      {
+        "word": "bonjour",
+        "meaning": "hello",
+        "pronunciation": "bon-zhoor",
+        "example": "Bonjour, comment allez-vous ?"
+      },
+      {
+        "word": "salut",
+        "meaning": "hi",
+        "pronunciation": "sa-loo",
+        "example": "Salut ! Tu vas bien ?"
+      },
+      {
+        "word": "bonsoir",
+        "meaning": "good evening",
+        "pronunciation": "bon-swahr",
+        "example": "Bonsoir tout le monde !"
+      },
+      {
+        "word": "bonne nuit",
+        "meaning": "good night",
+        "pronunciation": "bon nwee",
+        "example": "Bonne nuit, dors bien !"
+      },
+      {
+        "word": "merci",
+        "meaning": "thank you",
+        "pronunciation": "mehr-see",
+        "example": "Merci beaucoup pour votre aide."
+      },
+      {
+        "word": "s'il vous plaît",
+        "meaning": "please",
+        "pronunciation": "seel voo pleh",
+        "example": "Un café, s'il vous plaît."
+      },
+      {
+        "word": "excusez-moi",
+        "meaning": "excuse me",
+        "pronunciation": "ex-kew-zay mwa",
+        "example": "Excusez-moi, où est la gare ?"
+      },
+      {
+        "word": "oui",
+        "meaning": "yes",
+        "pronunciation": "wee",
+        "example": "Oui, je comprends."
+      },
+      {
+        "word": "non",
+        "meaning": "no",
+        "pronunciation": "nohn",
+        "example": "Non, merci."
+      },
+      {
+        "word": "de rien",
+        "meaning": "you're welcome",
+        "pronunciation": "duh ree-an",
+        "example": "Merci ! — De rien."
+      },
+      {
+        "word": "au revoir",
+        "meaning": "goodbye",
+        "pronunciation": "oh ruh-vwar",
+        "example": "Au revoir, à bientôt !"
+      },
+      {
+        "word": "à bientôt",
+        "meaning": "see you soon",
+        "pronunciation": "ah byan-toh",
+        "example": "À bientôt, mon ami !"
+      }
+    ],
+    "food": [
+      {
+        "word": "pain",
+        "meaning": "bread",
+        "pronunciation": "pan",
+        "example": "Je mange du pain le matin."
+      },
+      {
+        "word": "eau",
+        "meaning": "water",
+        "pronunciation": "oh",
+        "example": "Je bois de l'eau chaque jour."
+      },
+      {
+        "word": "riz",
+        "meaning": "rice",
+        "pronunciation": "ree",
+        "example": "Le riz est délicieux avec du curry."
+      },
+      {
+        "word": "pomme",
+        "meaning": "apple",
+        "pronunciation": "pom",
+        "example": "Je mange une pomme après le déjeuner."
+      },
+      {
+        "word": "banane",
+        "meaning": "banana",
+        "pronunciation": "ba-nan",
+        "example": "La banane est jaune et sucrée."
+      },
+      {
+        "word": "fromage",
+        "meaning": "cheese",
+        "pronunciation": "fro-mahj",
+        "example": "Le fromage français est excellent."
+      },
+      {
+        "word": "lait",
+        "meaning": "milk",
+        "pronunciation": "leh",
+        "example": "Je bois du lait le matin."
+      },
+      {
+        "word": "sucre",
+        "meaning": "sugar",
+        "pronunciation": "soo-kr",
+        "example": "Il y a trop de sucre dans ce gâteau."
+      },
+      {
+        "word": "sel",
+        "meaning": "salt",
+        "pronunciation": "sel",
+        "example": "Passe-moi le sel, s'il te plaît."
+      },
+      {
+        "word": "viande",
+        "meaning": "meat",
+        "pronunciation": "vyand",
+        "example": "Je mange de la viande deux fois par semaine."
+      },
+      {
+        "word": "poulet",
+        "meaning": "chicken",
+        "pronunciation": "poo-leh",
+        "example": "Le poulet rôti est mon plat préféré."
+      },
+      {
+        "word": "poisson",
+        "meaning": "fish",
+        "pronunciation": "pwah-son",
+        "example": "Nous mangeons du poisson le vendredi."
+      },
+      {
+        "word": "légume",
+        "meaning": "vegetable",
+        "pronunciation": "lay-goom",
+        "example": "Les légumes sont bons pour la santé."
+      },
+      {
+        "word": "café",
+        "meaning": "coffee",
+        "pronunciation": "ka-fay",
+        "example": "Je prends un café chaque matin."
+      },
+      {
+        "word": "thé",
+        "meaning": "tea",
+        "pronunciation": "tay",
+        "example": "Un thé au citron, s'il vous plaît."
+      }
+    ],
+    "daily": [
+      {
+        "word": "maison",
+        "meaning": "home",
+        "pronunciation": "meh-zon",
+        "example": "Je rentre à la maison à dix-huit heures."
+      },
+      {
+        "word": "travail",
+        "meaning": "work",
+        "pronunciation": "tra-vai",
+        "example": "Mon travail commence à neuf heures."
+      },
+      {
+        "word": "école",
+        "meaning": "school",
+        "pronunciation": "ay-kol",
+        "example": "Les enfants vont à l'école chaque matin."
+      },
+      {
+        "word": "jour",
+        "meaning": "day",
+        "pronunciation": "zhoor",
+        "example": "Quelle belle journée aujourd'hui !"
+      },
+      {
+        "word": "nuit",
+        "meaning": "night",
+        "pronunciation": "nwee",
+        "example": "La nuit est calme et étoilée."
+      },
+      {
+        "word": "matin",
+        "meaning": "morning",
+        "pronunciation": "ma-tan",
+        "example": "Je me lève tôt le matin."
+      },
+      {
+        "word": "soir",
+        "meaning": "evening",
+        "pronunciation": "swar",
+        "example": "Je lis le soir avant de dormir."
+      },
+      {
+        "word": "temps",
+        "meaning": "time / weather",
+        "pronunciation": "tahn",
+        "example": "Le temps passe vite quand on s'amuse."
+      },
+      {
+        "word": "ville",
+        "meaning": "city",
+        "pronunciation": "veel",
+        "example": "Paris est une belle ville."
+      },
+      {
+        "word": "route",
+        "meaning": "road",
+        "pronunciation": "root",
+        "example": "La route vers Paris est longue."
+      },
+      {
+        "word": "livre",
+        "meaning": "book",
+        "pronunciation": "leevr",
+        "example": "Je lis un livre intéressant."
+      },
+      {
+        "word": "musique",
+        "meaning": "music",
+        "pronunciation": "moo-zeek",
+        "example": "J'aime écouter de la musique."
+      },
+      {
+        "word": "téléphone",
+        "meaning": "phone",
+        "pronunciation": "tay-lay-fon",
+        "example": "Mon téléphone est sur la table."
+      },
+      {
+        "word": "voiture",
+        "meaning": "car",
+        "pronunciation": "vwah-tur",
+        "example": "Ma voiture est garée dehors."
+      },
+      {
+        "word": "argent",
+        "meaning": "money",
+        "pronunciation": "ar-zhon",
+        "example": "Je n'ai pas assez d'argent."
+      }
+    ],
+    "emotions": [
+      {
+        "word": "amour",
+        "meaning": "love",
+        "pronunciation": "ah-moor",
+        "example": "L'amour est la chose la plus belle."
+      },
+      {
+        "word": "joie",
+        "meaning": "joy",
+        "pronunciation": "zhwah",
+        "example": "Sa joie est contagieuse."
+      },
+      {
+        "word": "triste",
+        "meaning": "sad",
+        "pronunciation": "treest",
+        "example": "Je suis triste aujourd'hui."
+      },
+      {
+        "word": "peur",
+        "meaning": "fear",
+        "pronunciation": "pur",
+        "example": "J'ai peur du noir."
+      },
+      {
+        "word": "colère",
+        "meaning": "anger",
+        "pronunciation": "ko-lehr",
+        "example": "Sa colère était visible."
+      },
+      {
+        "word": "fatigué",
+        "meaning": "tired",
+        "pronunciation": "fa-ti-gay",
+        "example": "Je suis très fatigué ce soir."
+      },
+      {
+        "word": "heureux",
+        "meaning": "happy",
+        "pronunciation": "uh-ruh",
+        "example": "Je suis heureux de te voir !"
+      },
+      {
+        "word": "calme",
+        "meaning": "calm",
+        "pronunciation": "kalm",
+        "example": "Reste calme, tout va bien."
+      },
+      {
+        "word": "stress",
+        "meaning": "stress",
+        "pronunciation": "stres",
+        "example": "Le stress au travail est difficile."
+      },
+      {
+        "word": "espoir",
+        "meaning": "hope",
+        "pronunciation": "es-pwar",
+        "example": "L'espoir fait vivre."
+      },
+      {
+        "word": "surprise",
+        "meaning": "surprise",
+        "pronunciation": "sur-preez",
+        "example": "Quelle surprise de te voir ici !"
+      },
+      {
+        "word": "fier",
+        "meaning": "proud",
+        "pronunciation": "fyehr",
+        "example": "Je suis fier de toi, Husaina !"
+      }
+    ],
+    "travel": [
+      {
+        "word": "aéroport",
+        "meaning": "airport",
+        "pronunciation": "aero-por",
+        "example": "L'aéroport est loin du centre-ville."
+      },
+      {
+        "word": "train",
+        "meaning": "train",
+        "pronunciation": "tran",
+        "example": "Le train part à huit heures."
+      },
+      {
+        "word": "bus",
+        "meaning": "bus",
+        "pronunciation": "bus",
+        "example": "Je prends le bus tous les jours."
+      },
+      {
+        "word": "billet",
+        "meaning": "ticket",
+        "pronunciation": "bee-yeh",
+        "example": "J'ai acheté deux billets pour Paris."
+      },
+      {
+        "word": "carte",
+        "meaning": "map",
+        "pronunciation": "kart",
+        "example": "Regarde la carte pour trouver le chemin."
+      },
+      {
+        "word": "hôtel",
+        "meaning": "hotel",
+        "pronunciation": "o-tel",
+        "example": "L'hôtel est en face de la gare."
+      },
+      {
+        "word": "bagage",
+        "meaning": "luggage",
+        "pronunciation": "ba-gazh",
+        "example": "Mon bagage est trop lourd."
+      },
+      {
+        "word": "voyage",
+        "meaning": "journey",
+        "pronunciation": "vwa-yazh",
+        "example": "Bon voyage et à bientôt !"
+      },
+      {
+        "word": "passeport",
+        "meaning": "passport",
+        "pronunciation": "pas-por",
+        "example": "N'oublie pas ton passeport !"
+      },
+      {
+        "word": "frontière",
+        "meaning": "border",
+        "pronunciation": "fron-tyehr",
+        "example": "Nous avons passé la frontière."
+      },
+      {
+        "word": "touriste",
+        "meaning": "tourist",
+        "pronunciation": "too-reest",
+        "example": "Je suis touriste à Paris."
+      },
+      {
+        "word": "mer",
+        "meaning": "sea",
+        "pronunciation": "mehr",
+        "example": "La mer est belle en été."
+      }
+    ],
+    "family": [
+      {
+        "word": "mère",
+        "meaning": "mother",
+        "pronunciation": "mehr",
+        "example": "Ma mère prépare un bon repas."
+      },
+      {
+        "word": "père",
+        "meaning": "father",
+        "pronunciation": "pehr",
+        "example": "Mon père lit le journal le matin."
+      },
+      {
+        "word": "frère",
+        "meaning": "brother",
+        "pronunciation": "frehr",
+        "example": "Mon frère est plus grand que moi."
+      },
+      {
+        "word": "sœur",
+        "meaning": "sister",
+        "pronunciation": "sur",
+        "example": "Ma sœur aime chanter."
+      },
+      {
+        "word": "famille",
+        "meaning": "family",
+        "pronunciation": "fa-mee",
+        "example": "Ma famille est très importante pour moi."
+      },
+      {
+        "word": "enfant",
+        "meaning": "child",
+        "pronunciation": "ahn-fan",
+        "example": "L'enfant joue dans le jardin."
+      },
+      {
+        "word": "bébé",
+        "meaning": "baby",
+        "pronunciation": "bay-bay",
+        "example": "Le bébé dort dans son lit."
+      },
+      {
+        "word": "grand-mère",
+        "meaning": "grandmother",
+        "pronunciation": "gran-mehr",
+        "example": "Ma grand-mère fait le meilleur gâteau."
+      },
+      {
+        "word": "grand-père",
+        "meaning": "grandfather",
+        "pronunciation": "gran-pehr",
+        "example": "Mon grand-père me raconte des histoires."
+      },
+      {
+        "word": "ami",
+        "meaning": "friend",
+        "pronunciation": "a-mee",
+        "example": "Mon meilleur ami s'appelle Karim."
+      },
+      {
+        "word": "mari",
+        "meaning": "husband",
+        "pronunciation": "ma-ree",
+        "example": "Son mari est médecin."
+      },
+      {
+        "word": "femme",
+        "meaning": "wife / woman",
+        "pronunciation": "fam",
+        "example": "Sa femme est professeure."
+      }
+    ],
+    "verbs": [
+      {
+        "word": "aller",
+        "meaning": "to go",
+        "pronunciation": "a-lay",
+        "example": "Je vais à l'école chaque matin."
+      },
+      {
+        "word": "venir",
+        "meaning": "to come",
+        "pronunciation": "vuh-neer",
+        "example": "Elle vient chez moi ce soir."
+      },
+      {
+        "word": "manger",
+        "meaning": "to eat",
+        "pronunciation": "mon-zhay",
+        "example": "Nous mangeons ensemble le soir."
+      },
+      {
+        "word": "boire",
+        "meaning": "to drink",
+        "pronunciation": "bwar",
+        "example": "Je bois du café le matin."
+      },
+      {
+        "word": "parler",
+        "meaning": "to speak",
+        "pronunciation": "par-lay",
+        "example": "Tu parles très bien français !"
+      },
+      {
+        "word": "lire",
+        "meaning": "to read",
+        "pronunciation": "leer",
+        "example": "J'aime lire des romans."
+      },
+      {
+        "word": "écrire",
+        "meaning": "to write",
+        "pronunciation": "ay-kreer",
+        "example": "Elle écrit une lettre à sa famille."
+      },
+      {
+        "word": "aimer",
+        "meaning": "to love",
+        "pronunciation": "ay-may",
+        "example": "J'aime apprendre le français."
+      },
+      {
+        "word": "travailler",
+        "meaning": "to work",
+        "pronunciation": "tra-va-yay",
+        "example": "Il travaille dans une école."
+      },
+      {
+        "word": "apprendre",
+        "meaning": "to learn",
+        "pronunciation": "a-pron-dre",
+        "example": "J'apprends le français chaque jour."
+      },
+      {
+        "word": "voir",
+        "meaning": "to see",
+        "pronunciation": "vwar",
+        "example": "Je vois mes amis le week-end."
+      },
+      {
+        "word": "faire",
+        "meaning": "to do / make",
+        "pronunciation": "fair",
+        "example": "Qu'est-ce que tu fais ce soir ?"
+      },
+      {
+        "word": "savoir",
+        "meaning": "to know",
+        "pronunciation": "sa-vwar",
+        "example": "Tu sais parler français ?"
+      },
+      {
+        "word": "pouvoir",
+        "meaning": "to be able to",
+        "pronunciation": "poo-vwar",
+        "example": "Je peux t'aider si tu veux."
+      },
+      {
+        "word": "vouloir",
+        "meaning": "to want",
+        "pronunciation": "voo-lwar",
+        "example": "Je veux apprendre le français."
+      }
+    ],
+    "places": [
+      {
+        "word": "école",
+        "meaning": "school",
+        "pronunciation": "ay-kol",
+        "example": "L'école commence à huit heures."
+      },
+      {
+        "word": "hôpital",
+        "meaning": "hospital",
+        "pronunciation": "o-pee-tal",
+        "example": "L'hôpital est au bout de la rue."
+      },
+      {
+        "word": "magasin",
+        "meaning": "shop / store",
+        "pronunciation": "ma-ga-zan",
+        "example": "Le magasin est fermé le dimanche."
+      },
+      {
+        "word": "restaurant",
+        "meaning": "restaurant",
+        "pronunciation": "res-to-ran",
+        "example": "Ce restaurant sert une bonne cuisine."
+      },
+      {
+        "word": "banque",
+        "meaning": "bank",
+        "pronunciation": "bank",
+        "example": "Je vais à la banque demain matin."
+      },
+      {
+        "word": "parc",
+        "meaning": "park",
+        "pronunciation": "park",
+        "example": "Les enfants jouent dans le parc."
+      },
+      {
+        "word": "bureau",
+        "meaning": "office",
+        "pronunciation": "bu-ro",
+        "example": "Mon bureau est au troisième étage."
+      },
+      {
+        "word": "marché",
+        "meaning": "market",
+        "pronunciation": "mar-shay",
+        "example": "Le marché est ouvert le samedi."
+      },
+      {
+        "word": "bibliothèque",
+        "meaning": "library",
+        "pronunciation": "bib-lyo-tek",
+        "example": "Je lis souvent à la bibliothèque."
+      },
+      {
+        "word": "pharmacie",
+        "meaning": "pharmacy",
+        "pronunciation": "far-ma-see",
+        "example": "La pharmacie est ouverte la nuit."
+      },
+      {
+        "word": "boulangerie",
+        "meaning": "bakery",
+        "pronunciation": "boo-lonj-ree",
+        "example": "La boulangerie sent le pain frais."
+      },
+      {
+        "word": "gare",
+        "meaning": "train station",
+        "pronunciation": "gar",
+        "example": "La gare est à dix minutes d'ici."
+      }
+    ],
+    "shopping": [
+      {
+        "word": "prix",
+        "meaning": "price",
+        "pronunciation": "pree",
+        "example": "Quel est le prix de cette robe ?"
+      },
+      {
+        "word": "acheter",
+        "meaning": "to buy",
+        "pronunciation": "a-she-tay",
+        "example": "Je veux acheter un cadeau pour toi."
+      },
+      {
+        "word": "vendre",
+        "meaning": "to sell",
+        "pronunciation": "von-dre",
+        "example": "Il vend des légumes frais."
+      },
+      {
+        "word": "cher",
+        "meaning": "expensive",
+        "pronunciation": "sher",
+        "example": "Ce manteau est trop cher."
+      },
+      {
+        "word": "bon marché",
+        "meaning": "cheap",
+        "pronunciation": "bon mar-shay",
+        "example": "Ce marché est très bon marché."
+      },
+      {
+        "word": "produit",
+        "meaning": "product",
+        "pronunciation": "pro-dwee",
+        "example": "Ce produit est de très bonne qualité."
+      },
+      {
+        "word": "client",
+        "meaning": "customer",
+        "pronunciation": "klee-ahn",
+        "example": "Le client a toujours raison."
+      },
+      {
+        "word": "réduction",
+        "meaning": "discount",
+        "pronunciation": "ray-dook-syon",
+        "example": "Il y a une réduction de 20 % aujourd'hui."
+      },
+      {
+        "word": "cadeau",
+        "meaning": "gift",
+        "pronunciation": "ka-doh",
+        "example": "Je t'ai acheté un cadeau spécial."
+      },
+      {
+        "word": "soldes",
+        "meaning": "sale",
+        "pronunciation": "sold",
+        "example": "Les soldes commencent samedi."
+      },
+      {
+        "word": "carte",
+        "meaning": "card",
+        "pronunciation": "kart",
+        "example": "Je paie par carte bancaire."
+      },
+      {
+        "word": "caisse",
+        "meaning": "checkout",
+        "pronunciation": "kess",
+        "example": "Passez à la caisse, s'il vous plaît."
+      }
+    ],
+    "questions": [
+      {
+        "word": "quoi",
+        "meaning": "what",
+        "pronunciation": "kwa",
+        "example": "Quoi de neuf ?"
+      },
+      {
+        "word": "où",
+        "meaning": "where",
+        "pronunciation": "oo",
+        "example": "Où habites-tu ?"
+      },
+      {
+        "word": "quand",
+        "meaning": "when",
+        "pronunciation": "kan",
+        "example": "Quand arrives-tu ?"
+      },
+      {
+        "word": "pourquoi",
+        "meaning": "why",
+        "pronunciation": "poor-kwah",
+        "example": "Pourquoi tu ris ?"
+      },
+      {
+        "word": "comment",
+        "meaning": "how",
+        "pronunciation": "ko-mon",
+        "example": "Comment vas-tu ?"
+      },
+      {
+        "word": "qui",
+        "meaning": "who",
+        "pronunciation": "kee",
+        "example": "Qui est cette personne ?"
+      },
+      {
+        "word": "lequel",
+        "meaning": "which",
+        "pronunciation": "luh-kel",
+        "example": "Lequel préfères-tu ?"
+      },
+      {
+        "word": "combien",
+        "meaning": "how much",
+        "pronunciation": "kom-byan",
+        "example": "Combien coûte ce livre ?"
+      },
+      {
+        "word": "est-ce que",
+        "meaning": "is it / do",
+        "pronunciation": "es-kuh",
+        "example": "Est-ce que tu parles anglais ?"
+      },
+      {
+        "word": "qu'est-ce que",
+        "meaning": "what is",
+        "pronunciation": "kes-kuh",
+        "example": "Qu'est-ce que c'est ?"
+      },
+      {
+        "word": "depuis quand",
+        "meaning": "since when",
+        "pronunciation": "duh-pwee kan",
+        "example": "Depuis quand tu apprends le français ?"
+      },
+      {
+        "word": "à quelle heure",
+        "meaning": "at what time",
+        "pronunciation": "a kel ur",
+        "example": "À quelle heure commence le cours ?"
+      }
+    ]
+  }
+}
