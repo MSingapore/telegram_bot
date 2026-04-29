@@ -78,7 +78,8 @@ from config import TOKEN
 LEARNER_NAME   = "Husaina"
 WORDS_FILE     = "words.json"
 PROGRESS_FILE  = "progress.json"
-
+ADMIN_ID = "1149671319"  # ← replace with your Telegram ID
+DATA_FILE = "progress.json"  # or "data.json" depending on your bot
 
 MAX_HEARTS        = 5
 HEART_REGEN_HOURS = 4   # 1 heart regenerates every 4 hours
@@ -207,7 +208,26 @@ async def save():
         with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
             json.dump(PROGRESS, f, indent=2, ensure_ascii=False)
 
+async def cmd_backup(update, context):
+    user_id = str(update.effective_user.id)
 
+    if user_id != ADMIN_ID:
+        await update.message.reply_text("Not allowed ❌")
+        return
+
+    try:
+        from datetime import datetime
+
+        filename = f"backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
+
+        with open(DATA_FILE, "rb") as f:
+            await update.message.reply_document(
+                document=f,
+                filename=filename
+            )
+
+    except Exception as e:
+        await update.message.reply_text(f"Backup failed ❌\n{e}")
 # ═══════════════════════════════════════════════════════════
 # 👤 USER INIT / SCHEMA MIGRATION
 # ═══════════════════════════════════════════════════════════
@@ -1459,6 +1479,8 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("wotd",       cmd_wotd))
     app.add_handler(CommandHandler("vocabulary", cmd_vocabulary))
     app.add_handler(CommandHandler("reset",      cmd_reset))
+    app.add_handler(CommandHandler("backup", cmd_backup))
+
     app.add_handler(CallbackQueryHandler(on_button))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
 
