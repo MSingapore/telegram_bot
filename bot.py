@@ -22,27 +22,107 @@ Features:
 """
 
 import os
-import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
+
 def run_web():
     class Handler(BaseHTTPRequestHandler):
         def do_GET(self):
+            # ✅ Health check endpoint (for uptime monitoring)
+            if self.path == "/health":
+                self.send_response(200)
+                self.send_header("Content-type", "text/plain")
+                self.end_headers()
+                self.wfile.write(b"OK")
+                return
+
+            # ✅ Main landing page
             self.send_response(200)
-            self.send_header("Content-type", "text/plain; charset=utf-8")
+            self.send_header("Content-type", "text/html; charset=utf-8")
             self.end_headers()
 
-            self.wfile.write("🌸 Bot is running".encode("utf-8"))
+            html = """
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>LearnAura</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    body {
+                        margin:0;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                        background: linear-gradient(135deg, #0f172a, #1e293b);
+                        color: white;
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
+                        height:100vh;
+                        text-align:center;
+                    }
+                    .card {
+                        background: rgba(255,255,255,0.05);
+                        backdrop-filter: blur(10px);
+                        padding: 40px;
+                        border-radius: 20px;
+                        box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+                        max-width: 400px;
+                    }
+                    h1 {
+                        font-size: 34px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        opacity: 0.8;
+                        margin-bottom: 20px;
+                    }
+                    .status {
+                        color: #4ade80;
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+                    .btn {
+                        display:inline-block;
+                        margin-top:20px;
+                        padding:12px 20px;
+                        border-radius:10px;
+                        background:#2563eb;
+                        color:white;
+                        text-decoration:none;
+                        font-weight:600;
+                    }
+                    .btn:hover {
+                        background:#1d4ed8;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="card">
+                    <h1>🌸 LearnAura</h1>
+                    <p>Your AI Learning Companion</p>
+                    <div class="status">🟢 System Online</div>
+                    <a class="btn" href="https://t.me/LearnAuraBot">Open Telegram Bot</a>
+                </div>
+            </body>
+            </html>
+            """
+
+            self.wfile.write(html.encode("utf-8"))
 
         def log_message(self, format, *args):
-            return
+            return  # silence logs
 
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 10000))
+    print(f"🌐 Web server running on port {port}")
+
     server = HTTPServer(("0.0.0.0", port), Handler)
     server.serve_forever()
 
+
+# Run web server in background thread
 threading.Thread(target=run_web, daemon=True).start()
 
+
+# === rest of your imports ===
 import re
 import json
 import random
