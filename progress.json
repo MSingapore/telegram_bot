@@ -6,52 +6,153 @@
     "last_active": "2026-04-29",
     "category": "greetings",
     "learned": [],
-    "xp": 5,
-    "level": "ًںŒ± A1 آ· Beginner",
+    "xp": 75,
+    "level": "🌱 A1 · Beginner",
     "hearts": 5,
     "last_heart_time": "",
-    "daily_done": 0,
-    "goal_date": "",
+    "daily_done": 2,
+    "goal_date": "2026-04-29",
+    "words": {
+      "bonjour": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-02"
+      },
+      "salut": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-02"
+      },
+      "bonsoir": {
+        "correct": 2,
+        "wrong": 5,
+        "next_review": "2026-05-02"
+      },
+      "amour": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-02"
+      },
+      "joie": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "bonne nuit": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      },
+      "merci": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      },
+      "s'il vous plaît": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      },
+      "excusez-moi": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      }
+    },
+    "achievements": [
+      "first_correct"
+    ],
+    "total_correct": 2,
+    "total_wrong": 5,
+    "consec_correct": 2,
+    "studied_cats": [
+      "greetings",
+      "emotions"
+    ],
+    "total_typed": 0,
+    "total_filled": 0,
+    "total_reviewed": 1,
+    "total_daily_goals": 0
+  },
+  "1149671319": {
+    "xp": 100,
+    "level": "🌿 A2 · Elementary",
+    "hearts": 5,
+    "last_heart_time": "",
+    "streak": 1,
+    "last_active": "2026-04-29",
+    "daily_done": 4,
+    "goal_date": "2026-04-29",
+    "category": "greetings",
     "words": {
       "bonjour": {
         "correct": 1,
         "wrong": 0,
         "next_review": "2026-04-30"
-      }
-    },
-    "achievements": [],
-    "total_correct": 0,
-    "total_wrong": 0,
-    "consec_correct": 0,
-    "studied_cats": [
-      "greetings"
-    ],
-    "total_typed": 0,
-    "total_filled": 0,
-    "total_reviewed": 0,
-    "total_daily_goals": 0
-  },
-  "1149671319": {
-    "xp": 10,
-    "level": "🌱 A1 · Beginner",
-    "hearts": 5,
-    "last_heart_time": "",
-    "streak": 1,
-    "last_active": "2026-04-29",
-    "daily_done": 0,
-    "goal_date": "",
-    "category": "greetings",
-    "words": {
-      "bonjour": {
+      },
+      "salut": {
         "correct": 2,
-        "wrong": 5,
+        "wrong": 0,
         "next_review": "2026-05-01"
+      },
+      "bonsoir": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "bonne nuit": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "merci": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "s'il vous plaît": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "excusez-moi": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "oui": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
+      },
+      "non": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      },
+      "de rien": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-02"
+      },
+      "au revoir": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-01"
+      },
+      "à bientôt": {
+        "correct": 1,
+        "wrong": 0,
+        "next_review": "2026-04-30"
       }
     },
-    "achievements": [],
-    "total_correct": 0,
-    "total_wrong": 5,
-    "consec_correct": 0,
+    "achievements": [
+      "first_correct",
+      "words_10"
+    ],
+    "total_correct": 4,
+    "total_wrong": 0,
+    "consec_correct": 4,
     "studied_cats": [
       "greetings"
     ],
