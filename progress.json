@@ -2,31 +2,31 @@
   "5092237447": {
     "correct": 7,
     "total": 10,
-    "streak": 1,
-    "last_active": "2026-04-29",
+    "streak": 3,
+    "last_active": "2026-05-01",
     "category": "greetings",
     "learned": [],
-    "xp": 75,
-    "level": "🌱 A1 · Beginner",
+    "xp": 380,
+    "level": "🌳 B1 · Intermediate",
     "hearts": 5,
     "last_heart_time": "",
-    "daily_done": 2,
-    "goal_date": "2026-04-29",
+    "daily_done": 14,
+    "goal_date": "2026-05-01",
     "words": {
       "bonjour": {
-        "correct": 2,
+        "correct": 3,
         "wrong": 0,
-        "next_review": "2026-05-02"
+        "next_review": "2026-05-05"
       },
       "salut": {
-        "correct": 2,
+        "correct": 3,
         "wrong": 0,
-        "next_review": "2026-05-02"
+        "next_review": "2026-05-06"
       },
       "bonsoir": {
-        "correct": 2,
+        "correct": 4,
         "wrong": 5,
-        "next_review": "2026-05-02"
+        "next_review": "2026-05-08"
       },
       "amour": {
         "correct": 2,
@@ -39,32 +39,62 @@
         "next_review": "2026-04-30"
       },
       "bonne nuit": {
-        "correct": 1,
+        "correct": 5,
         "wrong": 0,
-        "next_review": "2026-05-01"
+        "next_review": "2026-05-15"
       },
       "merci": {
-        "correct": 1,
+        "correct": 2,
         "wrong": 0,
-        "next_review": "2026-05-01"
+        "next_review": "2026-05-03"
       },
       "s'il vous plaît": {
-        "correct": 1,
+        "correct": 3,
         "wrong": 0,
-        "next_review": "2026-05-01"
+        "next_review": "2026-05-05"
       },
       "excusez-moi": {
-        "correct": 1,
+        "correct": 2,
         "wrong": 0,
-        "next_review": "2026-05-01"
+        "next_review": "2026-05-03"
+      },
+      "oui": {
+        "correct": 3,
+        "wrong": 0,
+        "next_review": "2026-05-05"
+      },
+      "non": {
+        "correct": 4,
+        "wrong": 0,
+        "next_review": "2026-05-08"
+      },
+      "de rien": {
+        "correct": 3,
+        "wrong": 0,
+        "next_review": "2026-05-05"
+      },
+      "au revoir": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-04"
+      },
+      "à bientôt": {
+        "correct": 2,
+        "wrong": 0,
+        "next_review": "2026-05-03"
       }
     },
     "achievements": [
-      "first_correct"
+      "first_correct",
+      "words_10",
+      "streak_3",
+      "xp_100",
+      "perfect_5",
+      "daily_goal_1"
     ],
-    "total_correct": 2,
+    "total_correct": 17,
     "total_wrong": 5,
-    "consec_correct": 2,
+    "consec_correct": 17,
     "studied_cats": [
       "greetings",
       "emotions"
@@ -72,33 +102,33 @@
     "total_typed": 0,
     "total_filled": 0,
     "total_reviewed": 1,
-    "total_daily_goals": 0
+    "total_daily_goals": 1
   },
   "1149671319": {
-    "xp": 100,
+    "xp": 125,
     "level": "🌿 A2 · Elementary",
     "hearts": 5,
     "last_heart_time": "",
     "streak": 1,
-    "last_active": "2026-04-29",
-    "daily_done": 4,
-    "goal_date": "2026-04-29",
+    "last_active": "2026-05-02",
+    "daily_done": 1,
+    "goal_date": "2026-05-02",
     "category": "greetings",
     "words": {
       "bonjour": {
-        "correct": 1,
-        "wrong": 0,
-        "next_review": "2026-04-30"
-      },
-      "salut": {
         "correct": 2,
         "wrong": 0,
-        "next_review": "2026-05-01"
+        "next_review": "2026-05-02"
+      },
+      "salut": {
+        "correct": 3,
+        "wrong": 0,
+        "next_review": "2026-05-05"
       },
       "bonsoir": {
-        "correct": 1,
+        "correct": 2,
         "wrong": 0,
-        "next_review": "2026-04-30"
+        "next_review": "2026-05-04"
       },
       "bonne nuit": {
         "correct": 1,
@@ -111,9 +141,9 @@
         "next_review": "2026-04-30"
       },
       "s'il vous plaît": {
-        "correct": 1,
+        "correct": 2,
         "wrong": 0,
-        "next_review": "2026-04-30"
+        "next_review": "2026-05-02"
       },
       "excusez-moi": {
         "correct": 1,
@@ -148,17 +178,19 @@
     },
     "achievements": [
       "first_correct",
-      "words_10"
+      "words_10",
+      "xp_100",
+      "perfect_5"
     ],
-    "total_correct": 4,
+    "total_correct": 5,
     "total_wrong": 0,
-    "consec_correct": 4,
+    "consec_correct": 5,
     "studied_cats": [
       "greetings"
     ],
     "total_typed": 0,
     "total_filled": 0,
-    "total_reviewed": 0,
+    "total_reviewed": 1,
     "total_daily_goals": 0
   }
 }
